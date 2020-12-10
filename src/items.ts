@@ -21,7 +21,15 @@ export async function generateItems(): Promise<{
   }
 
   // indexes
-  const [TITLE, CATEGORY, OTHERS, DESCRIPTION, REF] = [0, 1, 2, 3, 4, 5];
+  const [TITLE, {}, CATEGORY, SUBCATEGORY, OTHERS, DESCRIPTION, REF] = [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+  ];
 
   interface Data {
     title: string;
@@ -33,9 +41,29 @@ export async function generateItems(): Promise<{
   } = {};
 
   data.slice(1).forEach((e) => {
-    const categories = [e[CATEGORY]];
+    // Filters only Kubernetes related stuffs
+    if (e[CATEGORY] != 'Kubernetes') {
+      // True  - Kubernetes
+      // True  - Kubernetes[Configuration]
+      // True  - Container, Kubernetes[Configuration]
+      // True  - CI / CD, Kubernetes[CI / CD], CI / CD
+      // False - [Ingress Controller], [Progressive Delivery]
+      const re = /^([\w\/]*,\s?)?Kubernetes(\[[\w\/]*\])?(,.\s?.*)?$/gm;
+
+      if (!re.test(e[OTHERS])) {
+        // No alias category for this row, `return` to continue.
+        return;
+      }
+    }
+
+    const categories = e[CATEGORY] == 'Kubernetes' ? [e[SUBCATEGORY]] : [];
     if (e[OTHERS] !== '') {
-      categories.push(...e[OTHERS].split(',').map((s) => s.trim()));
+      categories.push(
+        ...e[OTHERS].split(',') //
+          .map((other) => {
+            return subcategoryFrom(other.trim());
+          }),
+      );
     }
     categories.forEach((c) => {
       if (!(c in dataByCat)) {
@@ -71,14 +99,20 @@ export async function generateItems(): Promise<{
     return table;
   }
 
-  function sanitizeCategory(cat: string): string {
-    return cat.toLowerCase().replace(/ /g, '-');
-  }
-
   const tables: { [key: string]: MarkdownTable[] } = {};
   Object.keys(dataByCat).forEach((cat) => {
-    tables[sanitizeCategory(cat)] = [toTable(cat)];
+    tables[cat] = [toTable(cat)];
   });
 
   return tables;
+}
+
+export function subcategoryFrom(other: string): string {
+  const re = /^(?:Kubernetes)?\[(?<sub>[\w\/ ]*)\]$/;
+  const match = other.match(re);
+  const groups = match?.groups;
+  if (groups == undefined) {
+    return '';
+  }
+  return groups.sub;
 }

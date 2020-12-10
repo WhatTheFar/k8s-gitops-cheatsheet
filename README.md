@@ -8,15 +8,14 @@
 
 | Title                                                              | Descripton |
 | :----------------------------------------------------------------- | :--------- |
-| cdk8s                                                              |            |
+| [cdk8s](https://github.com/awslabs/cdk8s)                          |            |
 | [dhall-kubernetes](https://github.com/dhall-lang/dhall-kubernetes) |            |
-| Grafana Tanka                                                      |            |
-| Helm                                                               |            |
+| [Grafana Tanka](https://github.com/grafana/tanka)                  |            |
+| [Helm](https://github.com/helm/helm)                               |            |
 | [Jsonnet](https://github.com/google/jsonnet)                       |            |
-| Kapitan                                                            |            |
 | [Ksonnet](https://github.com/ksonnet/ksonnet)                      |            |
-| Kustomize                                                          |            |
-| Pulumi Kubernetes                                                  |            |
+| [Kustomize](https://github.com/kubernetes-sigs/kustomize)          |            |
+| [Pulumi Kubernetes](https://github.com/pulumi/pulumi-kubernetes)   |            |
 
 [Back to Top](#table-of-contents)
 
@@ -44,10 +43,10 @@
 
 ###
 
-| Title        | Descripton |
-| :----------- | :--------- |
-| Skaffold     |            |
-| Telepresence |            |
+| Title                                                          | Descripton |
+| :------------------------------------------------------------- | :--------- |
+| [Skaffold](https://github.com/GoogleContainerTools/skaffold)   |            |
+| [Telepresence](https://github.com/telepresenceio/telepresence) |            |
 
 [Back to Top](#table-of-contents)
 
@@ -59,12 +58,9 @@
 
 ###
 
-| Title                                                                                           | Descripton                                             |
-| :---------------------------------------------------------------------------------------------- | :----------------------------------------------------- |
-| [AWS Load Balancer Controller](https://github.com/kubernetes-sigs/aws-load-balancer-controller) | Manage Elastic Load Balancers for a Kubernetes cluster |
-| [Nginx Ingress Controller](https://github.com/kubernetes/ingress-nginx)                         |                                                        |
-| [Traefik](https://github.com/traefik/traefik)                                                   |                                                        |
-| [Istio](https://github.com/istio/istio)                                                         |                                                        |
+| Title                                   | Descripton |
+| :-------------------------------------- | :--------- |
+| [Istio](https://github.com/istio/istio) |            |
 
 [Back to Top](#table-of-contents)
 
@@ -76,11 +72,9 @@
 
 ###
 
-| Title                                   | Descripton                                                                                           |
-| :-------------------------------------- | :--------------------------------------------------------------------------------------------------- |
-| Argo Rollouts                           | Progressive Delivery for Kubernetes with customizable metric analysis                                |
-| Flagger                                 | Progressive delivery Kubernetes operator (Canary, A/B testing and Blue/Green deployments automation) |
-| [Istio](https://github.com/istio/istio) |                                                                                                      |
+| Title                                   | Descripton |
+| :-------------------------------------- | :--------- |
+| [Istio](https://github.com/istio/istio) |            |
 
 [Back to Top](#table-of-contents)
 
@@ -99,7 +93,7 @@
 | [Kustomize Secret Generator Plugins](https://github.com/kubernetes-sigs/kustomize/blob/master/examples/secretGeneratorPlugin.md) |                                                                                  |
 | [Sealed Secret](https://github.com/bitnami-labs/sealed-secrets)                                                                  |                                                                                  |
 | [SOPS](https://github.com/mozilla/sops)                                                                                          |                                                                                  |
-| Tesoro                                                                                                                           |                                                                                  |
+| [Tesoro](https://github.com/kapicorp/tesoro)                                                                                     | Kapitan Secrets Controller for Kubernetes                                        |
 
 [Back to Top](#table-of-contents)
 
@@ -120,10 +114,11 @@ Tutorial
 
 ###
 
-| Title                                   | Descripton |
-| :-------------------------------------- | :--------- |
-| [Istio](https://github.com/istio/istio) |            |
-| Linkerd2                                |            |
+| Title                                           | Descripton                                                                  |
+| :---------------------------------------------- | :-------------------------------------------------------------------------- |
+| [Istio](https://github.com/istio/istio)         |                                                                             |
+| [Linkerd2](https://github.com/linkerd/linkerd2) | A ultralight, security-first service mesh for Kubernetes, supported by CNCF |
+| [Traefik Mesh](https://github.com/traefik/mesh) | A simple, opt-in by default, yet full-featured service mesh.                |
 
 [Back to Top](#table-of-contents)
 

@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@awesome-whatthefar/parser@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@awesome-whatthefar/parser/-/parser-0.0.3.tgz#ee24f80f58e47d1193c214cc8d0fb9a24b2a5856"
-  integrity sha512-3WqewmkoRAihD6sYOWpHggUwEFj54bFVoYbLAV5ePfgM5pLgZzU5HZpYPDjCo4Lt4nakE/pfxFgzi0o7Dm/TTQ==
+"@awesome-whatthefar/parser@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@awesome-whatthefar/parser/-/parser-0.0.5.tgz#ab1707a871cf660c3b87e56bc26f6d1aa2fbdff6"
+  integrity sha512-kGJPlI1lkcO6o7+NFHwCy4PunY7U2axBBAiqEjE2ZdI+L/8YytKroClLk7yXAstrGRkfPMtluHQMspa998LmDg==
   dependencies:
     dotenv "^7.0.0"
     lodash "^4.17.11"

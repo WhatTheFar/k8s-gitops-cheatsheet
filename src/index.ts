@@ -12,6 +12,9 @@ async function main(): Promise<void> {
       reference: {},
     },
     items,
+    {
+      verbose: true,
+    },
   );
 }
 

@@ -1,5 +1,19 @@
 # k8s-gitops-cheatsheet
 
+## Certificate
+
+<!--START_SECTION:awesome:certificate-->
+
+###
+
+| Title                                                    | Descripton |
+| :------------------------------------------------------- | :--------- |
+| [cert-manager](https://github.com/jetstack/cert-manager) |            |
+
+[Back to Top](#table-of-contents)
+
+<!--END_SECTION:awesome:certificate-->
+
 ## Configuration Management
 
 <!--START_SECTION:awesome:configuration-->
@@ -8,6 +22,7 @@
 
 | Title                                                              | Descripton |
 | :----------------------------------------------------------------- | :--------- |
+| [Kapitan](https://github.com/deepmind/kapitan)                     |            |
 | [cdk8s](https://github.com/awslabs/cdk8s)                          |            |
 | [dhall-kubernetes](https://github.com/dhall-lang/dhall-kubernetes) |            |
 | [Grafana Tanka](https://github.com/grafana/tanka)                  |            |
@@ -21,21 +36,21 @@
 
 <!--END_SECTION:awesome:configuration-->
 
-## Continuous Delivery
+## Continuous Deployment
 
-<!--START_SECTION:awesome:continuous-delivery-->
+<!--START_SECTION:awesome:continuous-deployment-->
 
 ###
 
-| Title     | Descripton |
-| :-------- | :--------- |
-| Argo CD   |            |
-| Flux      |            |
-| Jenkins X |            |
+| Title                                          | Descripton |
+| :--------------------------------------------- | :--------- |
+| [Argo CD](https://github.com/argoproj/argo-cd) |            |
+| [Flux](https://github.com/fluxcd/flux2)        |            |
+| [Jenkins X](https://jenkins-x.io/)             |            |
 
 [Back to Top](#table-of-contents)
 
-<!--END_SECTION:awesome:continuous-delivery-->
+<!--END_SECTION:awesome:continuous-deployment-->
 
 ## Continuous Development
 
@@ -58,13 +73,45 @@
 
 ###
 
-| Title                                   | Descripton |
-| :-------------------------------------- | :--------- |
-| [Istio](https://github.com/istio/istio) |            |
+| Title                                                                                           | Descripton                                             |
+| :---------------------------------------------------------------------------------------------- | :----------------------------------------------------- |
+| [AWS Load Balancer Controller](https://github.com/kubernetes-sigs/aws-load-balancer-controller) | Manage Elastic Load Balancers for a Kubernetes cluster |
+| [Nginx Ingress Controller](https://github.com/kubernetes/ingress-nginx)                         |                                                        |
+| [Traefik Ingress](https://doc.traefik.io/traefik/providers/kubernetes-ingress/)                 |                                                        |
+| [Istio](https://github.com/istio/istio)                                                         |                                                        |
 
 [Back to Top](#table-of-contents)
 
 <!--END_SECTION:awesome:ingress-controller-->
+
+## Observability
+
+<!--START_SECTION:awesome:observability-->
+
+###
+
+| Title                                   | Descripton |
+| :-------------------------------------- | :--------- |
+| [Kiali](https://github.com/kiali/kiali) |            |
+
+[Back to Top](#table-of-contents)
+
+<!--END_SECTION:awesome:observability-->
+
+## Pipeline
+
+<!--START_SECTION:awesome:pipeline-->
+
+###
+
+| Title                                              | Descripton |
+| :------------------------------------------------- | :--------- |
+| [Argo Workflows](https://github.com/argoproj/argo) |            |
+| [Tekton](https://github.com/tektoncd/pipeline)     |            |
+
+[Back to Top](#table-of-contents)
+
+<!--END_SECTION:awesome:pipeline-->
 
 ## Progressive Delivery
 
@@ -72,9 +119,11 @@
 
 ###
 
-| Title                                   | Descripton |
-| :-------------------------------------- | :--------- |
-| [Istio](https://github.com/istio/istio) |            |
+| Title                                                      | Descripton                                                                                           |
+| :--------------------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| [Argo Rollouts](https://github.com/argoproj/argo-rollouts) | Progressive Delivery for Kubernetes with customizable metric analysis                                |
+| [Flagger](https://github.com/weaveworks/flagger)           | Progressive delivery Kubernetes operator (Canary, A/B testing and Blue/Green deployments automation) |
+| [Istio](https://github.com/istio/istio)                    |                                                                                                      |
 
 [Back to Top](#table-of-contents)
 

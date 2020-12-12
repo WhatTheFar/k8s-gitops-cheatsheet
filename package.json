@@ -13,7 +13,7 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
-    "@awesome-whatthefar/parser": "^0.0.5",
+    "@awesome-whatthefar/parser": "^0.0.7",
     "super-expressive": "^1.4.0"
   },
   "devDependencies": {

@@ -14,6 +14,7 @@ async function main(): Promise<void> {
     items,
     {
       verbose: true,
+      tableOfContents: true,
     },
   );
 }

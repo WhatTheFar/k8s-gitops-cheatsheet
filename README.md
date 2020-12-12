@@ -1,5 +1,22 @@
 # k8s-gitops-cheatsheet
 
+<!--START_SECTION:awesome:table-of-contents-->
+
+## Table of Contents
+
+-   [Certificate](#certificate)
+-   [Configuration Management](#configuration-management)
+-   [Continuous Deployment](#continuous-deployment)
+-   [Continuous Development](#continuous-development)
+-   [Ingress Controller](#ingress-controller)
+-   [Observability](#observability)
+-   [Pipeline](#pipeline)
+-   [Progressive Delivery](#progressive-delivery)
+-   [Secret Management](#secret-management)
+-   [Service Mesh](#service-mesh)
+
+<!--END_SECTION:awesome:table-of-contents-->
+
 ## Certificate
 
 <!--START_SECTION:awesome:certificate-->

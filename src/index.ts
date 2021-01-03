@@ -1,9 +1,9 @@
 import { renderMarkdown } from '@awesome-whatthefar/parser';
-import { generateItems } from './items';
+import { generateK8sItemMap } from './items';
 import { resolve } from 'path';
 
 async function main(): Promise<void> {
-  const items = await generateItems();
+  const items = await generateK8sItemMap();
   await renderMarkdown(
     {
       fileName: 'README.md',

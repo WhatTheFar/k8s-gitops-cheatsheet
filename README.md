@@ -22,12 +22,10 @@
 
 <!--START_SECTION:awesome:certificate-->
 
-###
-
-| Title                                                                           | Descripton |
-| :------------------------------------------------------------------------------ | :--------- |
-| [cert-manager](https://github.com/jetstack/cert-manager)                        |            |
-| [Traefik Ingress](https://doc.traefik.io/traefik/providers/kubernetes-ingress/) |            |
+| Title                                                                           | Description |
+| :------------------------------------------------------------------------------ | :---------- |
+| [cert-manager](https://github.com/jetstack/cert-manager)                        |             |
+| [Traefik Ingress](https://doc.traefik.io/traefik/providers/kubernetes-ingress/) |             |
 
 [Back to Top](#table-of-contents)
 
@@ -37,20 +35,18 @@
 
 <!--START_SECTION:awesome:configuration-->
 
-###
-
-| Title                                                                                | Descripton |
-| :----------------------------------------------------------------------------------- | :--------- |
-| [Jsonnet](https://github.com/google/jsonnet)                                         |            |
-| [Kapitan](https://github.com/deepmind/kapitan)                                       |            |
-| [cdk8s](https://github.com/awslabs/cdk8s)                                            |            |
-| [CUE Kubernetes](https://github.com/cuelang/cue/tree/v0.2.2/doc/tutorial/kubernetes) |            |
-| [dhall-kubernetes](https://github.com/dhall-lang/dhall-kubernetes)                   |            |
-| [Grafana Tanka](https://github.com/grafana/tanka)                                    |            |
-| [Helm](https://github.com/helm/helm)                                                 |            |
-| [Ksonnet](https://github.com/ksonnet/ksonnet)                                        |            |
-| [Kustomize](https://github.com/kubernetes-sigs/kustomize)                            |            |
-| [Pulumi Kubernetes](https://github.com/pulumi/pulumi-kubernetes)                     |            |
+| Title                                                                                | Description |
+| :----------------------------------------------------------------------------------- | :---------- |
+| [Jsonnet](https://github.com/google/jsonnet)                                         |             |
+| [Kapitan](https://github.com/deepmind/kapitan)                                       |             |
+| [cdk8s](https://github.com/awslabs/cdk8s)                                            |             |
+| [CUE Kubernetes](https://github.com/cuelang/cue/tree/v0.2.2/doc/tutorial/kubernetes) |             |
+| [dhall-kubernetes](https://github.com/dhall-lang/dhall-kubernetes)                   |             |
+| [Grafana Tanka](https://github.com/grafana/tanka)                                    |             |
+| [Helm](https://github.com/helm/helm)                                                 |             |
+| [Ksonnet](https://github.com/ksonnet/ksonnet)                                        |             |
+| [Kustomize](https://github.com/kubernetes-sigs/kustomize)                            |             |
+| [Pulumi Kubernetes](https://github.com/pulumi/pulumi-kubernetes)                     |             |
 
 [Back to Top](#table-of-contents)
 
@@ -60,13 +56,11 @@
 
 <!--START_SECTION:awesome:continuous-deployment-->
 
-###
-
-| Title                                          | Descripton |
-| :--------------------------------------------- | :--------- |
-| [Argo CD](https://github.com/argoproj/argo-cd) |            |
-| [Flux](https://github.com/fluxcd/flux2)        |            |
-| [Jenkins X](https://jenkins-x.io/)             |            |
+| Title                                          | Description |
+| :--------------------------------------------- | :---------- |
+| [Argo CD](https://github.com/argoproj/argo-cd) |             |
+| [Flux](https://github.com/fluxcd/flux2)        |             |
+| [Jenkins X](https://jenkins-x.io/)             |             |
 
 [Back to Top](#table-of-contents)
 
@@ -76,12 +70,10 @@
 
 <!--START_SECTION:awesome:continuous-development-->
 
-###
-
-| Title                                                          | Descripton |
-| :------------------------------------------------------------- | :--------- |
-| [Skaffold](https://github.com/GoogleContainerTools/skaffold)   |            |
-| [Telepresence](https://github.com/telepresenceio/telepresence) |            |
+| Title                                                          | Description |
+| :------------------------------------------------------------- | :---------- |
+| [Skaffold](https://github.com/GoogleContainerTools/skaffold)   |             |
+| [Telepresence](https://github.com/telepresenceio/telepresence) |             |
 
 [Back to Top](#table-of-contents)
 
@@ -91,9 +83,7 @@
 
 <!--START_SECTION:awesome:ingress-controller-->
 
-###
-
-| Title                                                                                           | Descripton                                             |
+| Title                                                                                           | Description                                            |
 | :---------------------------------------------------------------------------------------------- | :----------------------------------------------------- |
 | [AWS Load Balancer Controller](https://github.com/kubernetes-sigs/aws-load-balancer-controller) | Manage Elastic Load Balancers for a Kubernetes cluster |
 | [Nginx Ingress Controller](https://github.com/kubernetes/ingress-nginx)                         |                                                        |
@@ -108,11 +98,9 @@
 
 <!--START_SECTION:awesome:observability-->
 
-###
-
-| Title                                   | Descripton |
-| :-------------------------------------- | :--------- |
-| [Kiali](https://github.com/kiali/kiali) |            |
+| Title                                   | Description |
+| :-------------------------------------- | :---------- |
+| [Kiali](https://github.com/kiali/kiali) |             |
 
 [Back to Top](#table-of-contents)
 
@@ -122,12 +110,10 @@
 
 <!--START_SECTION:awesome:pipeline-->
 
-###
-
-| Title                                              | Descripton |
-| :------------------------------------------------- | :--------- |
-| [Argo Workflows](https://github.com/argoproj/argo) |            |
-| [Tekton](https://github.com/tektoncd/pipeline)     |            |
+| Title                                              | Description |
+| :------------------------------------------------- | :---------- |
+| [Argo Workflows](https://github.com/argoproj/argo) |             |
+| [Tekton](https://github.com/tektoncd/pipeline)     |             |
 
 [Back to Top](#table-of-contents)
 
@@ -137,9 +123,7 @@
 
 <!--START_SECTION:awesome:progressive-delivery-->
 
-###
-
-| Title                                                      | Descripton                                                                                           |
+| Title                                                      | Description                                                                                          |
 | :--------------------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
 | [Argo Rollouts](https://github.com/argoproj/argo-rollouts) | Progressive Delivery for Kubernetes with customizable metric analysis                                |
 | [Flagger](https://github.com/weaveworks/flagger)           | Progressive delivery Kubernetes operator (Canary, A/B testing and Blue/Green deployments automation) |
@@ -153,9 +137,7 @@
 
 <!--START_SECTION:awesome:secret-->
 
-###
-
-| Title                                                                                                                            | Descripton                                                                       |
+| Title                                                                                                                            | Description                                                                      |
 | :------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
 | [helm-secret](https://github.com/futuresimple/helm-secrets)                                                                      | A helm plugin that help manage secrets with Git workflow and store them anywhere |
 | [Kamus](https://github.com/Soluto/kamus)                                                                                         |                                                                                  |
@@ -181,9 +163,7 @@ Tutorial
 
 <!--START_SECTION:awesome:service-mesh-->
 
-###
-
-| Title                                           | Descripton                                                                  |
+| Title                                           | Description                                                                 |
 | :---------------------------------------------- | :-------------------------------------------------------------------------- |
 | [Istio](https://github.com/istio/istio)         |                                                                             |
 | [Linkerd2](https://github.com/linkerd/linkerd2) | A ultralight, security-first service mesh for Kubernetes, supported by CNCF |

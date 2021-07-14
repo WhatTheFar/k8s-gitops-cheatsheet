@@ -35,18 +35,20 @@
 
 <!--START_SECTION:awesome:configuration-->
 
-| Title                                                                                | Description |
-| :----------------------------------------------------------------------------------- | :---------- |
-| [Jsonnet](https://github.com/google/jsonnet)                                         |             |
-| [Kapitan](https://github.com/deepmind/kapitan)                                       |             |
-| [cdk8s](https://github.com/awslabs/cdk8s)                                            |             |
-| [CUE Kubernetes](https://github.com/cuelang/cue/tree/v0.2.2/doc/tutorial/kubernetes) |             |
-| [dhall-kubernetes](https://github.com/dhall-lang/dhall-kubernetes)                   |             |
-| [Grafana Tanka](https://github.com/grafana/tanka)                                    |             |
-| [Helm](https://github.com/helm/helm)                                                 |             |
-| [Ksonnet](https://github.com/ksonnet/ksonnet)                                        |             |
-| [Kustomize](https://github.com/kubernetes-sigs/kustomize)                            |             |
-| [Pulumi Kubernetes](https://github.com/pulumi/pulumi-kubernetes)                     |             |
+| Title                                                                                | Description                                              |
+| :----------------------------------------------------------------------------------- | :------------------------------------------------------- |
+| [Jsonnet](https://github.com/google/jsonnet)                                         | Validate and define text-based and dynamic configuration |
+| [Kapitan](https://github.com/deepmind/kapitan)                                       |                                                          |
+| [cdk8s](https://github.com/awslabs/cdk8s)                                            |                                                          |
+| [CUE Kubernetes](https://github.com/cuelang/cue/tree/v0.2.2/doc/tutorial/kubernetes) |                                                          |
+| [dhall-kubernetes](https://github.com/dhall-lang/dhall-kubernetes)                   |                                                          |
+| [Grafana Tanka](https://github.com/grafana/tanka)                                    |                                                          |
+| [Helm](https://github.com/helm/helm)                                                 |                                                          |
+| [kpt](https://github.com/GoogleContainerTools/kpt)                                   |                                                          |
+| [Ksonnet](https://github.com/ksonnet/ksonnet)                                        |                                                          |
+| [Kustomize](https://github.com/kubernetes-sigs/kustomize)                            |                                                          |
+| [Pulumi Kubernetes](https://github.com/pulumi/pulumi-kubernetes)                     |                                                          |
+| [QBEC](https://github.com/splunk/qbec)                                               |                                                          |
 
 [Back to Top](#table-of-contents)
 
